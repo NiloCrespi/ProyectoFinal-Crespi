@@ -1,0 +1,17 @@
+.itemCount-container {
+    display: flex;
+    padding-left: 0.1rem;
+    align-items: center;
+}
+
+.itemCount-button {
+    width: 4rem;
+    height: 2rem;
+    margin-inline: 1rem;
+    color: white;
+    font-size: 15px;
+    background-color: orange;
+    border-radius:  4px; 
+    border: none;
+    cursor: pointer;
+}

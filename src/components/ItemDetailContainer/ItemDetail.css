@@ -1,0 +1,23 @@
+.item-detail {
+    display: grid;
+    grid-template-areas: "image details";
+    grid-template-columns: 1fr 1fr;
+    background-color:rgb(228, 141, 171);
+    margin: 1rem
+
+}
+
+.item-detail_img {
+    grid-area: "image";
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2rem;
+}
+
+.item-detail_info {
+    grid-area: "details";
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 2rem
+}
